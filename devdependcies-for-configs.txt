@@ -1,0 +1,19 @@
+Babel:
+    1. babel/cli
+    2. babel/core
+    3. babel/plugin-proposal-class-properties
+    4. babel/preset-env
+       
+ES-Lint:
+    1. eslint
+    2. eslint-config-prettier
+    3. eslint-plugin-import
+    4. eslint-plugin-jsx-a11y
+    5. eslint-plugin-node
+    6. eslint-plugin-prettier
+    7. eslint-plugin-react
+    8. eslint-plugin-react-hooks
+      
+Prettier:
+    1. prettier
+        
