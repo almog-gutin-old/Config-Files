@@ -3,6 +3,7 @@ Babel:
     2. babel/core
     3. babel/plugin-proposal-class-properties
     4. babel/preset-env
+    Add in the scripts of package.json "babel": "babel public/js --out dir dist"
        
 ES-Lint:
     1. eslint
@@ -16,4 +17,20 @@ ES-Lint:
       
 Prettier:
     1. prettier
+
+Sass:
+    1. sass
+    Add in the scripts of package.json after adding 2 folders to the project "sass": "sass src/styles/sass:src/styles/css --watch --no-source-map"
+
+
+Jest:
+    1. jest
+    2. supertest
+     Add in the scripts of package.json "test": "env-cmd -f config/dev.env jest --watch"
+    
+    Add this object in the package.json 
+    "jest": {
+        "testEnviorment": "node"
+    },
+
         
